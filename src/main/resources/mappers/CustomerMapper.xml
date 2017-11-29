@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.MG.mapper.CustomerMapper">
+
+	<!-- 회원 가입 -->
+	<insert id="insert" parameterType="CustomerVO">
+	insert into Customer(userID, userPW, userName, userPhoneNumber, userAddress)
+	values(#{userID}, #{userPW}, #{userName}, #{userPhoneNumber}, #{userAddress})
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="login" resultType="CustomerVO">
+	select * from Customer where userID=#{userID} and userPW=#{userPW}
+	</select>
+	
+</mapper>
