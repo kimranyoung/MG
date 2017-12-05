@@ -37,6 +37,9 @@ public class CustomerContorller {
 			model.addAttribute("CustomerVO", vo);
 			return "redirect:/cart";
 			
+			
+			
+			
 		}else {
 			return "redirect:/join";
 		}
