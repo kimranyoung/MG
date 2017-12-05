@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="" methos="post">
+<form action="/loginPost" method="post">
 <h3>·Î±×ÀÎ</h3>
 <hr>
 ID <input type="text" name="userID"><br>
