@@ -36,10 +36,6 @@ public class CustomerContorller {
 		if(vo.getUserID()==dto.getUserID()&&vo.getUserPW()==dto.getUserPW()) {
 			model.addAttribute("CustomerVO", vo);
 			return "redirect:/cart";
-			
-			
-			
-			
 		}else {
 			return "redirect:/join";
 		}
