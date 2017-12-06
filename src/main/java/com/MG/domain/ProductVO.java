@@ -7,6 +7,7 @@ public class ProductVO {
 	private String proOrigin;
 	private String proNumber;
 	private String proBrand;
+	
 	public String getProName() {
 		return proName;
 	}

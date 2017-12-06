@@ -7,4 +7,5 @@ public class ManageVO {
 	private String manaName;
 	private String mana;
 
+	
 }

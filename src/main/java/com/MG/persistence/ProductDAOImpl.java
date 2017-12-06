@@ -18,6 +18,7 @@ public class ProductDAOImpl {
 	//������ ����
 	public void insert(ProductVO vo) throws Exception{
 		session.insert(namespace+".insert",vo);
+		
 	}
 	
 }

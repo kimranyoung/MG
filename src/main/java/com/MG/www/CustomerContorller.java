@@ -40,4 +40,5 @@ public class CustomerContorller {
 			return "redirect:/join";
 		}
 	}
+	
 }
