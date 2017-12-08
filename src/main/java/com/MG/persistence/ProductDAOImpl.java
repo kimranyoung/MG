@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.MG.domain.ProductVO;
 
 @Repository
-public class ProductDAOImpl {
+public class ProductDAOImpl implements ProductDAO{
 
 	@Inject
 	private SqlSession session;

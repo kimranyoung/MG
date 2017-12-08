@@ -5,7 +5,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="com.MG.mapper.ProductMapper">
 
-	<insert id="insert" parameterType="ProductDAO">
+	<insert id="insert" parameterType="ProductVO">
 	insert into Product(proName, proPrice, proOrigin, proNumber, proBrand)
 	values(#{proName}, #{proPrice}, #{proOrigin}, #{proNumber}, #{proBrand});
 	</insert>
